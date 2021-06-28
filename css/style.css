@@ -1,0 +1,100 @@
+ h2 {
+	width: 550px;
+	margin-left:300px;
+}
+#form_register{
+	margin-left: 300px;
+}
+ul {
+  list-style: none; 
+  margin: 0; 
+  padding-left: 0; 
+}
+.lk{
+	font-size: 20px;
+}
+.lk input{
+	margin: 10px 0 0 30px;
+	border-top:  1px solid #E1E8EE;
+	border-bottom:  1px solid #E1E8EE;
+}
+
+.lk button{
+	text-align: center;
+	margin: 20px 70px 10px 50px;
+}
+#search {
+	margin: 25px;
+	border:  1px solid #E1E8EE;
+	width: auto;
+	
+}
+#mailing {
+	width: 20px;
+	height: 20px;
+	margin-top: 10px;
+	background-color: #E1E8EE;
+}
+.card-block2{
+  text-align: left;
+   margin: 100px;
+}
+.logo {
+  text-align: left;
+  margin: 0  0 0 40px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.top-menu {
+  background: rgba(255,255,255,.5);
+  box-shadow: 3px 0 5px rgba(0,0,0,.3);
+  margin: auto;
+  
+}
+.top-menu:after {
+  content: "";
+  display: inline-block;
+  clear: both;
+}
+.menu-main {
+  list-style: none;
+  text-align: center;
+  background: white;
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: #606060;
+  display: inline-block;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  margin: 0px 34px 0 30px;
+  font-size: 19px;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #006400;
+}
+.menu-main a:hover { 
+    text-decoration: underline; 
+}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #feb386;
+}
+@media (max-width: 200px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+}
